@@ -39,6 +39,7 @@ Get Event | */event/get_info* | GET | Endpoint to retrieve event information, in
 Purchase Ticket | */transaction/purchase* | POST | Endpoint to make a new purchase, customer data is sent via this API
 Transcation Detail | */transaction/get_info* | GET | Endpoint to retrieve transaction created using endpoint *Purchase Ticket*
 
+3. Please use UUID for each Id
 
 Assesment
 ----
