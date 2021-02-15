@@ -59,8 +59,8 @@ Notes
 - Please document the installation step by step in a README.md, assume the reader is very stupid and don't know about NodeJs, so make sure the documentation is clear, readable, and can be tested smoothly.
 - Please document your assumption in a ASSUMPTIONS.md
 - Dump your database in SQL format, and include it in git repository. Or you can use migration script (ExpressJs) and seeder. Make sure you attach it on your documentation.
-- After you finish with your assignment, you can share your git repository url and send it to philip@gorryholdings.com
-- If you can't complete your assignment in time and need extra day to complete, send your request to hrd@gorryholdings.com, 
+- After you finish with your assignment, you can share your git repository url and send it to HRD
+- If you can't complete your assignment in time and need extra day to complete, send your request to HRD, 
 explaining your condition and state how much extra days you need. The duration itself took 1 week.
 
 ### HAVE FUN & SEE YOU AT INTERVIEW
