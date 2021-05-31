@@ -9,13 +9,12 @@ mongoose.connect('mongodb://localhost/LoketReservation');
 
 //router
 var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
 var eventsRouter = require('./routes/events');
 var locationRouter = require('./routes/location');
+var transactionRouter = require('./routes/transaction');
+
 const bodyParser = require('body-parser');
-
 var app = express();
-
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
@@ -28,9 +27,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 //routes
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
 app.use('/events', eventsRouter);
 app.use('/location', locationRouter);
+app.use('/transaction', locationRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
